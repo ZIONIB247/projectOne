@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #202020;
+}
+
+#container {
+  width: 950px;
+  margin: 1.7rem auto;
+  text-align: left;
+
+  /* border: 2px solid blueviolet; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.box {
+  height: 22vh;
+  padding: 1.1rem 1rem;
+  background-color: gray;
+  border-radius: 30px;
+  border: 2px solid;
+}
+.box > h1 {
+  font-size: 13px;
+}
+.circle > h1 {
+  color: white;
+}
+.circle {
+  align-items: center;
+  margin: 1rem auto;
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.box > i {
+  float: right;
+  color: white;
+  background-color: black;
+  padding: 3px;
+  border-radius: 100%;
+  font-size: 11px;
+}
+.circleOne {
+  background-color: green;
+}
+.circleTwo {
+  background-color: pink;
+}
+.circleThree {
+  background-color: purple;
+}
+.circleFour {
+  background-color: purple;
+}
+.circleFive {
+  background-color: pink;
+}
+.circleSix {
+  background-color: green;
+}
+.circleSeven {
+  background-color: pink;
+}
+.circleEight {
+  background-color: purple;
+}
+.circleNine {
+  background-color: green;
+}
+#footer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.innerFooterIcon > i {
+  padding: 5px;
+  border-radius: 100%;
+  font-size: 11px;
+  margin-left: 5px;
+  background-color: gray;
+}
+.innerFooterIcon > i:first-child {
+  background-color: red;
+}
+.innerFooterIcon > i:last-child {
+  background-color: red;
+}
+.innerFooterIcon > i:nth-child(2) {
+  background-color: red;
+}
+.innerFooterIconRight > i {
+  font-size: 11px;
+  margin-left: 5px;
+  background-color: gray;
+}
+
+/* this is the styling for login */
+
+body {
+    background-color: #960777;
+  background-size: cover;
+  height: 100vh;
+  background: linear-gradient(90deg, #bb0175 60%, #440248);
+}
+#wrapper {
+  max-width: 800px;
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  height: 80vh;
+  box-shadow: 0.8rem 1rem rgba(0, 0, 0, 0.356);
+}
+.img__container {
+  padding-inline: 2rem;
+  background: linear-gradient(90deg, #bb0175 60%, #440248);
+  border-radius: 20px;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.img__container > img {
+  object-fit: cover;
+  width: 60%;
+  height: 45vh;
+}
+.img__container > p {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+.form__wrapper {
+  border-left: 10px solid #fff;
+  background-color: #e7e7e7;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 3rem 0 2rem 0;
+}
+.form__wrapper > h4 {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: linear-gradient(90deg, #bb0175 60%, #440248);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: -11px;
+  margin-bottom: 3rem;
+}
+/* form {
+  border: 2px solid blue;
+} */
+form > h1 {
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: center;
+  color: linear-gradient(90deg, #bb0175 60%, #440248);
+  font-weight: 600;
+}
+.input__container {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  border-bottom: 1px solid;
+  margin: 0.8rem auto;
+  width: 200px;
+}
+.input__container > input {
+  width: 100%;
+  padding-block: 0.3rem;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.input__container > input::placeholder {
+  font-size: 10px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+form > a {
+    display: block;
+    color: rgb(101, 101, 101);
+    font-size: 11px;
+    width: 230px;
+    margin: auto;
+    font-weight: 600;
+  }
+  .btn {
+    border: 2px solid;
+    width: 150px;
+    margin: 0.8rem auto;
+    border: none;
+}
+.btn > button {
+    background-color:#73015a;
+    width: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    padding-block: 0.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: linear-gradient(300deg, #3a0646 20% #b20474 60%);
+  }
+  form > p {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(101, 101, 101);
+  }
+  form > p > span {
+    color: purple;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .input__container>i{
+    opacity: .7;
+    padding: 2px;
+  border-radius: 100%;
+  font-size: 10px;
+  margin-left: 2px;
+  background-color:none;
+  }
+  form>a{
+    display: flex;
+   justify-content: end;
+   text-align: left;
+  }
+  form>p{
+   margin-top: 170px;
+  
+ 
+  }
+  .success{
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    margin: 30px 0px;
+    display: none;
+  }
+  .failure{
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    display: none;
+  }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mobile app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="success">
+      <p>Sucessful Login</p>
+    </div>
+
+    <div id="wrapper">
+      <div class="img__container">
+        <img src="image/login pix.png" alt="logo" />
+
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+          eaque quasi excepturi deserunt enim laboriosam reprehenderit illo,
+          consectetur nihil tempora placeat eius mollitia quo iste assumenda
+          dolorum corporis praesentium tenetur.
+        </p>
+      </div>
+      <div class="form__wrapper">
+        <h4>welcome Back</h4>
+
+        <form id="formWrapper" onsubmit="handleSubmit()">
+          <h1>Login your account</h1>
+          <div class="input__container">
+            <input type="" placeholder="username" name="username" />
+          </div>
+
+          <div class="input__container">
+            <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+            <input type="password" placeholder="password" name="password" />
+          </div>
+          <a href="#"><span>forgot password?</span></a>
+
+          <div class="btn">
+            <button type="submit">sign In</button>
+          </div>
+
+          <p>don't have an account? <span>sign up</span></p>
+        </form>
+      </div>
+    </div>
+
+    <div class="failure">
+      <p>Invalid details</p>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
